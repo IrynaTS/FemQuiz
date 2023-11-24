@@ -1,0 +1,95 @@
+/* Fonts */
+
+/* Kyiv Type */
+@font-face {
+  font-family: "Kyivtype_sansregular";
+  src: url(./fonts/kyivtypesans-vargx-webfont.woff2) format("woff2"),
+      url(./fonts/kyivtypesans-vargx-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Inter */
+@font-face {
+  font-family: "Inter_regular";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/inter-v12-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+
+
+/* Questions */
+#quiz-form {
+  padding: 20px 20px;
+}
+
+.quiz-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px 40px;
+  margin: 40px 50px 30px 50px;
+  background: #f4eef9;
+  border-radius: 20px;
+  font-family: "Inter_regular";
+}
+
+#result {
+  text-align: center;
+  color:  #6d22b3;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#submit-button {
+  background-color: #202020;
+  color: #ffffff;
+  border-radius: 36px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+#submit-button:hover {
+  background-color: transparent;
+  color: #202020;
+  border-color: #202020;
+}
+
+
+/* fonts */
+h1 {
+
+  font-family: "Kyivtype_sansregular";
+  font-size: 30px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center;
+}
+h2 {
+  font-family: "Kyivtype_sansregular";
+  font-size: 30px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-align: center;
+}
+
+/* Media queries*/
+
+@media screen and (min-width: 640px) {
+  /* Button */
+  #submit-button {
+      width: 140px;
+      height: 44px;
+      font-size: 15px;
+      text-align: center;
+  }
+  /* fonts */
+  h1 {
+      font-size: 45px;
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "question": "How many children should a woman have?",
+      "options": ["at least one child", "two children or more to overcome the demographic crisis", "women doesn't owe anything to anyone", "no child"],
+      "correctAnswer": "women doesn't owe anything to anyone"
+    },
+    {
+      "question": "Which of these women is NOT a feminist?",
+      "options": ["Emmeline Pankhurst", "Bridget Jones", "Olena Pchilka", "Alice Paul"],
+      "correctAnswer": "Bridget Jones"
+    },
+    {
+      "question": "Should prostitution be legalized?",
+      "options": ["yes, it's a free choice of everyone to choose what to do it life", "no, because it is obscene and prostitutes should be punished", "no, the Nordic model of preventing prostitution should be implemented, where the buyer is punished", "yes, because it protects women's rights"],
+      "correctAnswer": "no, the Nordic model of preventing prostitution should be implemented, where the buyer is punished"
+    }
+  ]
+  
+
+  
